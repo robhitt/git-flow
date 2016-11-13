@@ -209,7 +209,7 @@ Now you need to get the changes that Lauren made.
 
 * Add and commit these changes (`git add index.html`, `git commit -m "add firefly img and caption`") before checking out to master (`git checkout master`). 
 * From master, merge `add-fireflies` (`git merge add-fireflies`). Make sure all three pictures are there (tree, turtle, fireflies) before pushing up to your remote repository (`git push origin master`).
-* Since you merged into master and pushed the changes to a remote respository, delete the local branch (`git branch -D add-fireflies`).
+* Since you merged into master and pushed the changes to a remote repository, delete the local branch (`git branch -D add-fireflies`).
 * Now it's time to delete the remote branch `add-fireflies` as it is now included in the master branch: `git push origin :add-fireflies`
 
 ### Visualization
@@ -274,3 +274,5 @@ Now you have:
 * [LearnGitBranching](http://pcottle.github.io/learnGitBranching/) - [Introduction Sequence: Branching in Git](http://pcottle.github.io/learnGitBranching/)
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/git-flow' title='Git Flow'>Git Flow</a> on Learn.co and start learning to code for free.</p>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/git-flow'>Git Flow</a> on Learn.co and start learning to code for free.</p>
